@@ -15,8 +15,6 @@ spec:
   ignoreDifferences:
   - group: ""
     kind: "ConfigMap"
-    jsonPointers:
-    - /data
   syncPolicy:
     syncOptions:
     - CreateNamespace=true
