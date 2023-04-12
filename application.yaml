@@ -14,7 +14,7 @@ spec:
     namespace: team-1
   ignoreDifferences:
   - group: ""
-    kind: "configmap"
+    kind: "ConfigMap"
     jsonPointers:
     - /data
   syncPolicy:
