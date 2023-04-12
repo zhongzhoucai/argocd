@@ -12,6 +12,9 @@ spec:
   destination:
     server: https://kubernetes.default.svc
     namespace: team-1
+  ignoreDifferences:
+  - group: ""
+    kind: "configmap"
   syncPolicy:
     syncOptions:
     - CreateNamespace=true
