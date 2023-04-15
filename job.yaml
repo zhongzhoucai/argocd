@@ -3,7 +3,7 @@ kind: Job
 metadata:
   name: hook-dev-skip
   annotations:
-    argocd.argoproj.io/hook: Skip
+    argocd.argoproj.io/hook: PreSync
     argocd.argoproj.io/hook-delete-policy: BeforeHookCreation
 spec:
   template:
