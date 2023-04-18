@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/zhongzhoucai/argocd.git
     targetRevision: HEAD
-    path: .
+    path: yaml
   destination:
     server: https://kubernetes.default.svc
     namespace: team-1
