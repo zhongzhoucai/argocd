@@ -3,6 +3,8 @@ kind: Application
 metadata:
   name: myapp-team-1
   namespace: argocd
+  annotations:
+    argocd.argoproj.io/skip-reconcile: "true"
 spec:
   project: default
   source:
